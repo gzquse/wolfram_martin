@@ -1,0 +1,2961 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[    120697,       2952]
+NotebookOptionsPosition[    102016,       2555]
+NotebookOutlinePosition[    116511,       2886]
+CellTagsIndexPosition[    116138,       2871]
+WindowTitle->Quiz
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Wolfram Language Programming Fundamentals", "QuizSectionTitle",ExpressionUUID->"a6d8b047-e16f-42bd-be81-2db90777abbf"],
+
+Cell[CellGroupData[{
+
+Cell["Quiz", "ProblemTitle",ExpressionUUID->"a1ce0a1c-99b9-488d-904d-1b33e3e34a72"],
+
+Cell[CellGroupData[{
+
+Cell["Problem 1", "ProblemSectionNoFeedback",
+ TaggingRules->{
+  "QuestionNum" -> 
+   "1"},ExpressionUUID->"e799e9f2-15d2-41ba-abfb-331666296f3b"],
+
+Cell["\<\
+Which of the following types of objects CANNOT be contained in a List?\
+\>", "ProblemCaption",ExpressionUUID->"07ee79bf-da7a-4611-8423-3c35319dc86e"],
+
+Cell[BoxData[
+ DynamicModuleBox[{$CellContext`ans$$ = 0}, 
+  InterpretationBox[
+   StyleBox[GridBox[{
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[1] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[1] -> Blank[]]}]}]]], {1},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           
+           StyleBox[Cell[
+            "String",ExpressionUUID->"79530fbc-6cc1-4173-abce-6ff379c32879"], 
+            "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[1] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[1] -> Blank[]]}]}]]], {2},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           
+           StyleBox[Cell[
+            "Image",ExpressionUUID->"54a8e7e7-8bad-4111-b1e3-efb9435f13fb"], 
+            "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[1] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[1] -> Blank[]]}]}]]], {3},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           
+           StyleBox[Cell[
+            "Graphics3D",ExpressionUUID->
+             "2b971a53-5f81-44fd-9430-5c154f2eeadb"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[1] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[1] -> Blank[]]}]}]]], {4},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           
+           StyleBox[Cell[
+            "Function",ExpressionUUID->
+             "b35277be-aaf7-422e-878e-6bb2b5e8e7e2"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[1] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[1] -> Blank[]]}]}]]], {5},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           
+           StyleBox[Cell[
+            "None of the above",ExpressionUUID->
+             "355f4b87-0e68-47ca-9339-b9d308581819"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]}
+     },
+     GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}], 
+    "Deploy"],
+   RadioButtonBar[
+    Dynamic[$CellContext`ans$$, 
+     Function[
+     WolframUTools`Private`a$, $CellContext`ans$$ = WolframUTools`Private`a$; 
+      SetOptions[
+        EvaluationNotebook[], 
+        TaggingRules -> {
+         "Answers" -> Flatten[{ToString[1] -> WolframUTools`Private`a$, 
+             DeleteCases[
+              CurrentValue[
+               EvaluationNotebook[], {TaggingRules, "Answers"}], ToString[1] -> 
+              Blank[]]}]}]]], {1 -> Style[
+       RawBoxes[
+        Cell["String"]], "ProblemChoiceText"], 2 -> Style[
+       RawBoxes[
+        Cell["Image"]], "ProblemChoiceText"], 3 -> Style[
+       RawBoxes[
+        Cell["Graphics3D"]], "ProblemChoiceText"], 4 -> Style[
+       RawBoxes[
+        Cell["Function"]], "ProblemChoiceText"], 5 -> Style[
+       RawBoxes[
+        Cell["None of the above"]], "ProblemChoiceText"]}, Appearance -> 
+    "Vertical", BaselinePosition -> Automatic, 
+    ImageMargins -> {{6, 6}, {6, 6}}]],
+  DynamicModuleValues:>{}]], "ProblemChoiceGrid",
+ CellTags->"Problem-1",ExpressionUUID->"77283ba8-d022-465b-8c89-5178f61c4986"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Problem 2", "ProblemSectionNoFeedback",
+ TaggingRules->{
+  "QuestionNum" -> 
+   "2"},ExpressionUUID->"dd967ac6-0515-44d4-8c99-ec49dc3a055b"],
+
+Cell[TextData[{
+ "Which of the following inputs returns the third through last elements of \
+the list ",
+ Cell[BoxData[
+  TemplateBox[{"myList"},
+   "ClickToCopy"]], "InlineCode",ExpressionUUID->
+  "c4691230-c63f-42c1-9066-65b216c08d98"],
+ "?"
+}], "ProblemCaption",ExpressionUUID->"c8b6b3ad-026a-405a-9bbc-b8c749b66e6a"],
+
+Cell[BoxData[
+ DynamicModuleBox[{$CellContext`ans$$ = 0}, 
+  InterpretationBox[
+   StyleBox[GridBox[{
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[2] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[2] -> Blank[]]}]}]]], {1},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           StyleBox[Cell[TextData[Cell[BoxData[
+             TemplateBox[{"myList[3, -1]"},
+              "ClickToCopy"]], "InlineCode",ExpressionUUID->
+             "7fd763b7-b12d-4c68-bfda-98bb40e5ccc2"]],ExpressionUUID->
+             "572a17c3-8533-4d03-b8cc-575e2a3d3a37"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[2] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[2] -> Blank[]]}]}]]], {2},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           StyleBox[Cell[TextData[Cell[BoxData[
+             TemplateBox[{"myList[3 ;; -1]"},
+              "ClickToCopy"]], "InlineCode",ExpressionUUID->
+             "ead43b39-6754-4a08-bb02-c3f70de36434"]],ExpressionUUID->
+             "6fa69d8f-d032-46e3-9c0d-fd0d0710d97d"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[2] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[2] -> Blank[]]}]}]]], {3},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           StyleBox[Cell[TextData[Cell[BoxData[
+             TemplateBox[{"myList[[3 ;; Last]]"},
+              "ClickToCopy"]], "InlineCode",ExpressionUUID->
+             "c37f9aea-cd80-4464-88c2-b47452f4e18b"]],ExpressionUUID->
+             "7c686760-d9e0-405b-a231-c7cf70d3baba"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[2] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[2] -> Blank[]]}]}]]], {4},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           StyleBox[Cell[TextData[Cell[BoxData[
+             TemplateBox[{"myList[[3 ;; -1]]"},
+              "ClickToCopy"]], "InlineCode",ExpressionUUID->
+             "b59d9fd0-97f2-4827-b8fc-9e71028737a1"]],ExpressionUUID->
+             "202d5e25-eca8-4b21-9ecc-3cb60642fc59"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[2] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[2] -> Blank[]]}]}]]], {5},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           StyleBox[Cell[TextData[Cell[BoxData[
+             TemplateBox[{"Take[myList, 3, -1]"},
+              "ClickToCopy"]], "InlineCode",ExpressionUUID->
+             "be0a9c74-5e88-42dc-83c8-e47b27949371"]],ExpressionUUID->
+             "b379e6ee-ffef-4b03-aaab-078d185eb82f"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]}
+     },
+     GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}], 
+    "Deploy"],
+   RadioButtonBar[
+    Dynamic[$CellContext`ans$$, 
+     Function[
+     WolframUTools`Private`a$, $CellContext`ans$$ = WolframUTools`Private`a$; 
+      SetOptions[
+        EvaluationNotebook[], 
+        TaggingRules -> {
+         "Answers" -> Flatten[{ToString[2] -> WolframUTools`Private`a$, 
+             DeleteCases[
+              CurrentValue[
+               EvaluationNotebook[], {TaggingRules, "Answers"}], ToString[2] -> 
+              Blank[]]}]}]]], {1 -> Style[
+       RawBoxes[
+        Cell[
+         TextData[{
+           Cell[
+            BoxData[
+             TemplateBox[{"myList[3, -1]"}, "ClickToCopy"]], 
+            "InlineCode"]}]]], "ProblemChoiceText"], 2 -> Style[
+       RawBoxes[
+        Cell[
+         TextData[{
+           Cell[
+            BoxData[
+             TemplateBox[{"myList[3 ;; -1]"}, "ClickToCopy"]], 
+            "InlineCode"]}]]], "ProblemChoiceText"], 3 -> Style[
+       RawBoxes[
+        Cell[
+         TextData[{
+           Cell[
+            BoxData[
+             TemplateBox[{"myList[[3 ;; Last]]"}, "ClickToCopy"]], 
+            "InlineCode"]}]]], "ProblemChoiceText"], 4 -> Style[
+       RawBoxes[
+        Cell[
+         TextData[{
+           Cell[
+            BoxData[
+             TemplateBox[{"myList[[3 ;; -1]]"}, "ClickToCopy"]], 
+            "InlineCode"]}]]], "ProblemChoiceText"], 5 -> Style[
+       RawBoxes[
+        Cell[
+         TextData[{
+           Cell[
+            BoxData[
+             TemplateBox[{"Take[myList, 3, -1]"}, "ClickToCopy"]], 
+            "InlineCode"]}]]], "ProblemChoiceText"]}, Appearance -> 
+    "Vertical", BaselinePosition -> Automatic, 
+    ImageMargins -> {{6, 6}, {6, 6}}]],
+  DynamicModuleValues:>{}]], "ProblemChoiceGrid",
+ CellTags->"Problem-2",ExpressionUUID->"56035047-32db-4c19-b2a8-70c5f520904d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Problem 3", "ProblemSectionNoFeedback",
+ TaggingRules->{
+  "QuestionNum" -> 
+   "3"},ExpressionUUID->"44949fd2-e01b-42d7-b0b0-dd08f7e7a401"],
+
+Cell[TextData[{
+ "How would you interchange the keys and values of an association named ",
+ Cell[BoxData[
+  TemplateBox[{"assoc"},
+   "ClickToCopy"]], "InlineCode",ExpressionUUID->
+  "e1714989-3d6a-46fc-a276-3f1d02900ff4"],
+ "?"
+}], "ProblemCaption",ExpressionUUID->"12456082-2bc1-49e0-a4e2-c4bf7b970584"],
+
+Cell[BoxData[
+ DynamicModuleBox[{$CellContext`ans$$ = 0}, 
+  InterpretationBox[
+   StyleBox[GridBox[{
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[3] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[3] -> Blank[]]}]}]]], {1},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           StyleBox[Cell[TextData[Cell[BoxData[
+             TemplateBox[{"Association[Map[Reverse, Normal[assoc]]]"},
+              "ClickToCopy"]], "InlineCode",ExpressionUUID->
+             "a0775821-024b-4a3a-a0c1-7970f8e8d43d"]],ExpressionUUID->
+             "ae35decf-73a8-420d-a400-b23e0b645b19"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[3] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[3] -> Blank[]]}]}]]], {2},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           StyleBox[Cell[TextData[Cell[BoxData[
+             TemplateBox[{"AssociationThread[Values[assoc], Keys[assoc]]"},
+              "ClickToCopy"]], "InlineCode",ExpressionUUID->
+             "986451d1-cc36-400b-be6c-59c4cf016152"]],ExpressionUUID->
+             "b913f686-e63d-4481-99eb-0ec55fb3fdbe"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[3] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[3] -> Blank[]]}]}]]], {3},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           
+           StyleBox[Cell[
+            "Either A or B",ExpressionUUID->
+             "f20d5b85-4101-4091-b188-e4411b39d393"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[3] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[3] -> Blank[]]}]}]]], {4},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           
+           StyleBox[Cell[
+            "Neither A nor B",ExpressionUUID->
+             "f4c8fc61-b1d4-430f-bac2-d8ae0187d1f4"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]}
+     },
+     GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}], 
+    "Deploy"],
+   RadioButtonBar[
+    Dynamic[$CellContext`ans$$, 
+     Function[
+     WolframUTools`Private`a$, $CellContext`ans$$ = WolframUTools`Private`a$; 
+      SetOptions[
+        EvaluationNotebook[], 
+        TaggingRules -> {
+         "Answers" -> Flatten[{ToString[3] -> WolframUTools`Private`a$, 
+             DeleteCases[
+              CurrentValue[
+               EvaluationNotebook[], {TaggingRules, "Answers"}], ToString[3] -> 
+              Blank[]]}]}]]], {1 -> Style[
+       RawBoxes[
+        Cell[
+         TextData[{
+           Cell[
+            BoxData[
+             
+             TemplateBox[{"Association[Map[Reverse, Normal[assoc]]]"}, 
+              "ClickToCopy"]], "InlineCode"]}]]], "ProblemChoiceText"], 2 -> 
+     Style[
+       RawBoxes[
+        Cell[
+         TextData[{
+           Cell[
+            BoxData[
+             
+             TemplateBox[{"AssociationThread[Values[assoc], Keys[assoc]]"}, 
+              "ClickToCopy"]], "InlineCode"]}]]], "ProblemChoiceText"], 3 -> 
+     Style[
+       RawBoxes[
+        Cell["Either A or B"]], "ProblemChoiceText"], 4 -> Style[
+       RawBoxes[
+        Cell["Neither A nor B"]], "ProblemChoiceText"]}, Appearance -> 
+    "Vertical", BaselinePosition -> Automatic, 
+    ImageMargins -> {{6, 6}, {6, 6}}]],
+  DynamicModuleValues:>{}]], "ProblemChoiceGrid",
+ CellTags->"Problem-3",ExpressionUUID->"a5f1cb25-7d7c-48a3-86ca-3a9ca2b276b8"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Problem 4", "ProblemSectionNoFeedback",
+ TaggingRules->{
+  "QuestionNum" -> 
+   "4"},ExpressionUUID->"627381f6-1391-4415-a10e-4c35266afacd"],
+
+Cell[TextData[{
+ "Which definition for ",
+ Cell[BoxData[
+ "myRand"], "InlineCode",ExpressionUUID->
+  "65763e36-fe88-46e6-ba28-7b4023e6168e"],
+ " produces a new random real number every time it is evaluated?"
+}], "ProblemCaption",ExpressionUUID->"30c35553-5989-4833-a620-68578131baab"],
+
+Cell[BoxData[
+ DynamicModuleBox[{$CellContext`ans$$ = 0}, 
+  InterpretationBox[
+   StyleBox[GridBox[{
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[4] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[4] -> Blank[]]}]}]]], {1},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           StyleBox[Cell[TextData[Cell[BoxData[
+             TemplateBox[{"myRand := RandomReal[]"},
+              "ClickToCopy"]], "InlineCode",ExpressionUUID->
+             "b0223f28-6499-4fb0-b1cf-c6035716d730"]],ExpressionUUID->
+             "68688705-3483-47d3-ba93-3585ad2a4a0f"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[4] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[4] -> Blank[]]}]}]]], {2},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           StyleBox[Cell[TextData[Cell[BoxData[
+             TemplateBox[{"myRand = RandomReal[]"},
+              "ClickToCopy"]], "InlineCode",ExpressionUUID->
+             "ba3cc471-0bad-4e29-9dc8-998cfddb0104"]],ExpressionUUID->
+             "53d0f4a8-ec51-437e-ac23-9d5a7296d4dd"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[4] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[4] -> Blank[]]}]}]]], {3},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           StyleBox[Cell[TextData[Cell[BoxData[
+             TemplateBox[{"myRand \[Rule] RandomReal[]"},
+              "ClickToCopy"]], "InlineCode",ExpressionUUID->
+             "29bb57c4-a089-4392-8a41-8a095b85bf46"]],ExpressionUUID->
+             "0d34599e-9cb8-4313-a842-a7e32a0b35ad"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[4] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[4] -> Blank[]]}]}]]], {4},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           StyleBox[Cell[TextData[Cell[BoxData[
+             TemplateBox[{"myRand \[RuleDelayed] RandomReal[]"},
+              "ClickToCopy"]], "InlineCode",ExpressionUUID->
+             "33a51457-9667-4b0c-be52-0c07cc5b7d87"]],ExpressionUUID->
+             "9deac74b-d8c2-4707-a93c-4d6303458722"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]}
+     },
+     GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}], 
+    "Deploy"],
+   RadioButtonBar[
+    Dynamic[$CellContext`ans$$, 
+     Function[
+     WolframUTools`Private`a$, $CellContext`ans$$ = WolframUTools`Private`a$; 
+      SetOptions[
+        EvaluationNotebook[], 
+        TaggingRules -> {
+         "Answers" -> Flatten[{ToString[4] -> WolframUTools`Private`a$, 
+             DeleteCases[
+              CurrentValue[
+               EvaluationNotebook[], {TaggingRules, "Answers"}], ToString[4] -> 
+              Blank[]]}]}]]], {1 -> Style[
+       RawBoxes[
+        Cell[
+         TextData[{
+           Cell[
+            BoxData[
+             TemplateBox[{"myRand := RandomReal[]"}, "ClickToCopy"]], 
+            "InlineCode"]}]]], "ProblemChoiceText"], 2 -> Style[
+       RawBoxes[
+        Cell[
+         TextData[{
+           Cell[
+            BoxData[
+             TemplateBox[{"myRand = RandomReal[]"}, "ClickToCopy"]], 
+            "InlineCode"]}]]], "ProblemChoiceText"], 3 -> Style[
+       RawBoxes[
+        Cell[
+         TextData[{
+           Cell[
+            BoxData[
+             TemplateBox[{"myRand \[Rule] RandomReal[]"}, "ClickToCopy"]], 
+            "InlineCode"]}]]], "ProblemChoiceText"], 4 -> Style[
+       RawBoxes[
+        Cell[
+         TextData[{
+           Cell[
+            BoxData[
+             
+             TemplateBox[{"myRand \[RuleDelayed] RandomReal[]"}, 
+              "ClickToCopy"]], "InlineCode"]}]]], "ProblemChoiceText"]}, 
+    Appearance -> "Vertical", BaselinePosition -> Automatic, 
+    ImageMargins -> {{6, 6}, {6, 6}}]],
+  DynamicModuleValues:>{}]], "ProblemChoiceGrid",
+ CellTags->"Problem-4",ExpressionUUID->"5a5d98ef-4e4e-40be-aeba-ae70f804a018"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Problem 5", "ProblemSectionNoFeedback",
+ TaggingRules->{
+  "QuestionNum" -> 
+   "5"},ExpressionUUID->"6aba288e-ade0-4dd7-a4d2-5dc61e9f2149"],
+
+Cell["\<\
+Functions in Wolfram Language are special cases of which of the following?\
+\>", "ProblemCaption",ExpressionUUID->"3f06fbcb-fce4-4b54-a094-6b433324f3e5"],
+
+Cell[BoxData[
+ DynamicModuleBox[{$CellContext`ans$$ = 0}, 
+  InterpretationBox[
+   StyleBox[GridBox[{
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[5] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[5] -> Blank[]]}]}]]], {1},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           
+           StyleBox[Cell[
+            "Pattern-matching replacement rules",ExpressionUUID->
+             "b632dd5a-72b2-4dcb-8f26-efcf38d43202"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[5] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[5] -> Blank[]]}]}]]], {2},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           
+           StyleBox[Cell[
+            "Mathematical operations",ExpressionUUID->
+             "18f823fe-d2e9-42e4-8487-60d091904e43"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[5] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[5] -> Blank[]]}]}]]], {3},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           
+           StyleBox[Cell[
+            "Input-output maps",ExpressionUUID->
+             "a2b802c8-7166-4bee-9a1d-30d565fb7a2e"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]}
+     },
+     GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}], 
+    "Deploy"],
+   RadioButtonBar[
+    Dynamic[$CellContext`ans$$, 
+     Function[
+     WolframUTools`Private`a$, $CellContext`ans$$ = WolframUTools`Private`a$; 
+      SetOptions[
+        EvaluationNotebook[], 
+        TaggingRules -> {
+         "Answers" -> Flatten[{ToString[5] -> WolframUTools`Private`a$, 
+             DeleteCases[
+              CurrentValue[
+               EvaluationNotebook[], {TaggingRules, "Answers"}], ToString[5] -> 
+              Blank[]]}]}]]], {1 -> Style[
+       RawBoxes[
+        Cell["Pattern-matching replacement rules"]], "ProblemChoiceText"], 2 -> 
+     Style[
+       RawBoxes[
+        Cell["Mathematical operations"]], "ProblemChoiceText"], 3 -> Style[
+       RawBoxes[
+        Cell["Input-output maps"]], "ProblemChoiceText"]}, Appearance -> 
+    "Vertical", BaselinePosition -> Automatic, 
+    ImageMargins -> {{6, 6}, {6, 6}}]],
+  DynamicModuleValues:>{}]], "ProblemChoiceGrid",
+ CellTags->"Problem-5",ExpressionUUID->"90c1f448-aa9a-4395-91cf-b8cd00fff4e0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Problem 6", "ProblemSectionNoFeedback",
+ TaggingRules->{
+  "QuestionNum" -> 
+   "6"},ExpressionUUID->"c7856b4e-79a3-4fad-83e9-e0f974139cf7"],
+
+Cell[TextData[{
+ "Which of the following replacement rules would replace any function of a \
+sequence of integers with that same function of the word \"hello\"? (E.g. ",
+ Cell[BoxData[
+  TemplateBox[{"f[1, 2, 3]"},
+   "ClickToCopy",
+   StripOnInput -> False]], "InlineCode",ExpressionUUID->
+  "4ca2983d-2a48-4600-b76f-0b5d9d1fc905"],
+ " would be replaced with ",
+ Cell[BoxData[
+  TemplateBox[{"f[\"hello\"]"},
+   "ClickToCopy",
+   StripOnInput -> False]], "InlineCode",ExpressionUUID->
+  "094447fb-df78-4712-aa65-396d6f64d5e1"],
+ " and ",
+ Cell[BoxData[
+  TemplateBox[{"g[7, 2, 9]"},
+   "ClickToCopy",
+   StripOnInput -> False]], "InlineCode",ExpressionUUID->
+  "5da90e16-b451-4fdb-9378-73218ed94803"],
+ " would be replaced with ",
+ Cell[BoxData[
+  TemplateBox[{"g[\"hello\"]"},
+   "ClickToCopy",
+   StripOnInput -> False]], "InlineCode",ExpressionUUID->
+  "2f19841b-6065-48a5-b3c9-73cc0c5e51ad"],
+ ".)"
+}], "ProblemCaption",ExpressionUUID->"7bd2265d-9d4a-451b-a0dc-16fb6c8621e1"],
+
+Cell[BoxData[
+ DynamicModuleBox[{$CellContext`ans$$ = 0}, 
+  InterpretationBox[
+   StyleBox[GridBox[{
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[6] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[6] -> Blank[]]}]}]]], {1},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           StyleBox[Cell[TextData[Cell[BoxData[
+             RowBox[{
+              RowBox[{"f", "[", "x_List", "]"}], " ", "\[RuleDelayed]", " ", 
+              RowBox[{"f", "[", "\"\<hello\>\"", "]"}]}]], "InlineCode",
+             ExpressionUUID->"b8dd08bb-3f47-4f72-9cef-bfdc7dbc7a4a"]],
+             ExpressionUUID->"4c55fdb8-3c3b-4fb4-b6bb-68aa3d4916fa"], 
+            "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[6] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[6] -> Blank[]]}]}]]], {2},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           StyleBox[Cell[TextData[Cell[BoxData[
+             RowBox[{
+              RowBox[{"f_", "[", "x__Integer", "]"}], " ", "\[RuleDelayed]", 
+              " ", 
+              RowBox[{"f", "[", "\"\<hello\>\"", "]"}]}]], "InlineCode",
+             ExpressionUUID->"086c42df-dd90-45e4-bb7e-b36209efe5af"]],
+             ExpressionUUID->"489ee3a5-f5d3-43ef-a4c9-49bb629328b2"], 
+            "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[6] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[6] -> Blank[]]}]}]]], {3},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           StyleBox[Cell[TextData[Cell[BoxData[
+             RowBox[{
+              RowBox[{"f", "[", "x__Integer", "]"}], " ", "\[RuleDelayed]", 
+              " ", 
+              RowBox[{"f", "[", "\"\<hello\>\"", "]"}]}]], "InlineCode",
+             ExpressionUUID->"49eda690-af29-4c7a-9225-f669ebbb9158"]],
+             ExpressionUUID->"24faffa0-e55e-4684-89a4-67442c3827a7"], 
+            "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[6] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[6] -> Blank[]]}]}]]], {4},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           StyleBox[Cell[TextData[Cell[BoxData[
+             RowBox[{
+              RowBox[{"f", "[", "x__List", "]"}], " ", "\[RuleDelayed]", " ", 
+              
+              RowBox[{"f", "[", "\"\<hello\>\"", "]"}]}]], "InlineCode",
+             ExpressionUUID->"4af7f2f4-e890-4232-8e35-409f511e8636"]],
+             ExpressionUUID->"6add986d-54e5-4984-b6c2-65556f0b2443"], 
+            "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]}
+     },
+     GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}], 
+    "Deploy"],
+   RadioButtonBar[
+    Dynamic[$CellContext`ans$$, 
+     Function[
+     WolframUTools`Private`a$, $CellContext`ans$$ = WolframUTools`Private`a$; 
+      SetOptions[
+        EvaluationNotebook[], 
+        TaggingRules -> {
+         "Answers" -> Flatten[{ToString[6] -> WolframUTools`Private`a$, 
+             DeleteCases[
+              CurrentValue[
+               EvaluationNotebook[], {TaggingRules, "Answers"}], ToString[6] -> 
+              Blank[]]}]}]]], {1 -> Style[
+       RawBoxes[
+        Cell[
+         TextData[{
+           Cell[
+            BoxData[
+             RowBox[{
+               RowBox[{"f", "[", "x_List", "]"}], " ", "\[RuleDelayed]", " ", 
+               
+               RowBox[{"f", "[", "\"hello\"", "]"}]}]], "InlineCode"]}]]], 
+       "ProblemChoiceText"], 2 -> Style[
+       RawBoxes[
+        Cell[
+         TextData[{
+           Cell[
+            BoxData[
+             RowBox[{
+               RowBox[{"f_", "[", "x__Integer", "]"}], " ", "\[RuleDelayed]", 
+               " ", 
+               RowBox[{"f", "[", "\"hello\"", "]"}]}]], "InlineCode"]}]]], 
+       "ProblemChoiceText"], 3 -> Style[
+       RawBoxes[
+        Cell[
+         TextData[{
+           Cell[
+            BoxData[
+             RowBox[{
+               RowBox[{"f", "[", "x__Integer", "]"}], " ", "\[RuleDelayed]", 
+               " ", 
+               RowBox[{"f", "[", "\"hello\"", "]"}]}]], "InlineCode"]}]]], 
+       "ProblemChoiceText"], 4 -> Style[
+       RawBoxes[
+        Cell[
+         TextData[{
+           Cell[
+            BoxData[
+             RowBox[{
+               RowBox[{"f", "[", "x__List", "]"}], " ", "\[RuleDelayed]", " ", 
+               RowBox[{"f", "[", "\"hello\"", "]"}]}]], "InlineCode"]}]]], 
+       "ProblemChoiceText"]}, Appearance -> "Vertical", BaselinePosition -> 
+    Automatic, ImageMargins -> {{6, 6}, {6, 6}}]],
+  DynamicModuleValues:>{}]], "ProblemChoiceGrid",
+ CellTags->"Problem-6",ExpressionUUID->"f41df898-515f-4aac-a58f-ede4663bf6ff"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Problem 7", "ProblemSectionNoFeedback",
+ TaggingRules->{
+  "QuestionNum" -> 
+   "7"},ExpressionUUID->"6dc4c877-6790-42e3-b3ab-83145ceece88"],
+
+Cell["Which of the following expressions is NOT atomic?", "ProblemCaption",ExpressionUUID->"e558950c-3430-4c23-b7f4-c579d6a85d47"],
+
+Cell[BoxData[
+ DynamicModuleBox[{$CellContext`ans$$ = 0}, 
+  InterpretationBox[
+   StyleBox[GridBox[{
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[7] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[7] -> Blank[]]}]}]]], {1},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           
+           StyleBox[Cell[TextData[Cell[BoxData[
+            "\"\<a\>\""], "InlineCode",ExpressionUUID->
+             "12ff8c08-99ce-432c-ba65-668cd93d5fb4"]],ExpressionUUID->
+             "3440c69e-7618-4bc5-a987-541f1f459327"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[7] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[7] -> Blank[]]}]}]]], {2},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           
+           StyleBox[Cell[TextData[Cell[BoxData[
+            "\"\<abcde\>\""], "InlineCode",ExpressionUUID->
+             "a3b735f7-037d-4018-a2a0-655edc2b2bf5"]],ExpressionUUID->
+             "7c95e6a5-1e77-4013-89d6-5c449cea7060"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[7] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[7] -> Blank[]]}]}]]], {3},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           
+           StyleBox[Cell[TextData[Cell[BoxData[
+            "Pi"], "InlineCode",ExpressionUUID->
+             "658efcda-e80c-41af-9e64-2b005da78521"]],ExpressionUUID->
+             "f91a23d5-143f-4a0d-aab4-9b473184d68b"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[7] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[7] -> Blank[]]}]}]]], {4},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           StyleBox[Cell[TextData[Cell[BoxData[
+             RowBox[{"2", " ", "\[ExponentialE]"}]], "InlineCode",
+             ExpressionUUID->"e865d95d-dad0-4b5a-b5fa-032b678352cb"]],
+             ExpressionUUID->"0faddebe-aa96-46d3-8322-b42a7d0b163f"], 
+            "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[7] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[7] -> Blank[]]}]}]]], {5},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           
+           StyleBox[Cell[TextData[Cell[BoxData[
+            "5"], "InlineCode",ExpressionUUID->
+             "4cb4997e-fb0f-4820-9c17-d3fc483d66e6"]],ExpressionUUID->
+             "29e5976e-bdb1-4968-9f93-cabd580f8e75"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]}
+     },
+     GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}], 
+    "Deploy"],
+   RadioButtonBar[
+    Dynamic[$CellContext`ans$$, 
+     Function[
+     WolframUTools`Private`a$, $CellContext`ans$$ = WolframUTools`Private`a$; 
+      SetOptions[
+        EvaluationNotebook[], 
+        TaggingRules -> {
+         "Answers" -> Flatten[{ToString[7] -> WolframUTools`Private`a$, 
+             DeleteCases[
+              CurrentValue[
+               EvaluationNotebook[], {TaggingRules, "Answers"}], ToString[7] -> 
+              Blank[]]}]}]]], {1 -> Style[
+       RawBoxes[
+        Cell[
+         TextData[{
+           Cell[
+            BoxData["\"a\""], "InlineCode"]}]]], "ProblemChoiceText"], 2 -> 
+     Style[
+       RawBoxes[
+        Cell[
+         TextData[{
+           Cell[
+            BoxData["\"abcde\""], "InlineCode"]}]]], "ProblemChoiceText"], 3 -> 
+     Style[
+       RawBoxes[
+        Cell[
+         TextData[{
+           Cell[
+            BoxData["Pi"], "InlineCode"]}]]], "ProblemChoiceText"], 4 -> Style[
+       RawBoxes[
+        Cell[
+         TextData[{
+           Cell[
+            BoxData[
+             RowBox[{"2", " ", "\[ExponentialE]"}]], "InlineCode"]}]]], 
+       "ProblemChoiceText"], 5 -> Style[
+       RawBoxes[
+        Cell[
+         TextData[{
+           Cell[
+            BoxData["5"], "InlineCode"]}]]], "ProblemChoiceText"]}, 
+    Appearance -> "Vertical", BaselinePosition -> Automatic, 
+    ImageMargins -> {{6, 6}, {6, 6}}]],
+  DynamicModuleValues:>{}]], "ProblemChoiceGrid",
+ CellTags->"Problem-7",ExpressionUUID->"0d80723b-2e6d-425e-82eb-860dadc37dc3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Problem 8", "ProblemSectionNoFeedback",
+ TaggingRules->{
+  "QuestionNum" -> 
+   "8"},ExpressionUUID->"12ba7ffc-5bc6-4b13-a532-5ce557b76798"],
+
+Cell[TextData[{
+ "On which sorts of expressions does ",
+ Cell[BoxData[
+  TemplateBox[{"Part"},
+   "ClickToCopy"]],ExpressionUUID->"5df96fd5-c613-4973-b9fd-24f10dd0492b"],
+ " (",
+ Cell[BoxData[
+  TemplateBox[{"[[]]"},
+   "ClickToCopy"]],ExpressionUUID->"4b7ea7a9-dd13-4149-b32c-29a8430b13ac"],
+ ") work?"
+}], "ProblemCaption",ExpressionUUID->"e38f555d-9423-4005-b68f-e268970a6049"],
+
+Cell[BoxData[
+ DynamicModuleBox[{$CellContext`ans$$ = 0}, 
+  InterpretationBox[
+   StyleBox[GridBox[{
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[8] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[8] -> Blank[]]}]}]]], {1},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           
+           StyleBox[Cell[
+            "Lists",ExpressionUUID->"8b2ab020-4e3b-4e62-92e8-7521d77385fb"], 
+            "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[8] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[8] -> Blank[]]}]}]]], {2},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           
+           StyleBox[Cell[
+            "Math expressions",ExpressionUUID->
+             "de29804f-133e-4716-8f1a-a2a1a154bf65"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[8] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[8] -> Blank[]]}]}]]], {3},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           
+           StyleBox[Cell[
+            "All expressions",ExpressionUUID->
+             "35cd8629-5322-43cc-8d0d-04f3f33f1951"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[8] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[8] -> Blank[]]}]}]]], {4},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           
+           StyleBox[Cell[
+            "All non-atomic expressions",ExpressionUUID->
+             "b97c9163-b0e4-40e0-b6db-b47c0c398284"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]}
+     },
+     GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}], 
+    "Deploy"],
+   RadioButtonBar[
+    Dynamic[$CellContext`ans$$, 
+     Function[
+     WolframUTools`Private`a$, $CellContext`ans$$ = WolframUTools`Private`a$; 
+      SetOptions[
+        EvaluationNotebook[], 
+        TaggingRules -> {
+         "Answers" -> Flatten[{ToString[8] -> WolframUTools`Private`a$, 
+             DeleteCases[
+              CurrentValue[
+               EvaluationNotebook[], {TaggingRules, "Answers"}], ToString[8] -> 
+              Blank[]]}]}]]], {1 -> Style[
+       RawBoxes[
+        Cell["Lists"]], "ProblemChoiceText"], 2 -> Style[
+       RawBoxes[
+        Cell["Math expressions"]], "ProblemChoiceText"], 3 -> Style[
+       RawBoxes[
+        Cell["All expressions"]], "ProblemChoiceText"], 4 -> Style[
+       RawBoxes[
+        Cell["All non-atomic expressions"]], "ProblemChoiceText"]}, 
+    Appearance -> "Vertical", BaselinePosition -> Automatic, 
+    ImageMargins -> {{6, 6}, {6, 6}}]],
+  DynamicModuleValues:>{}]], "ProblemChoiceGrid",
+ CellTags->"Problem-8",ExpressionUUID->"25bbb0f2-81f5-4830-8710-76f62bab6e72"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Problem 9", "ProblemSectionNoFeedback",
+ TaggingRules->{
+  "QuestionNum" -> 
+   "9"},ExpressionUUID->"0be6ccd6-1906-46cb-b9a1-97bc03f90a32"],
+
+Cell[TextData[{
+ "Given a matrix ",
+ Cell[BoxData[
+  TemplateBox[{"mat"},
+   "ClickToCopy"]],ExpressionUUID->"72aff88c-36ba-40ed-a27e-d984448d36fd"],
+ ", how should you apply the operation ",
+ Cell[BoxData[
+  TemplateBox[{"f"},
+   "ClickToCopy"]],ExpressionUUID->"494fcabf-33a5-4ab1-b194-eed64f1cd1d2"],
+ " such that ",
+ Cell[BoxData[
+  TemplateBox[{
+    SubscriptBox["mat", "ij"]},
+   "ClickToCopy"]],ExpressionUUID->"1ebad542-544b-4a0b-b2a1-d99a1ae60c6b"],
+ " becomes ",
+ Cell[BoxData[
+  TemplateBox[{
+    RowBox[{"f", "[", 
+      SubscriptBox["mat", "ij"], "]"}]},
+   "ClickToCopy"]],ExpressionUUID->"0fd67c98-df39-4757-8663-2e68195b11fb"],
+ " for all ",
+ Cell[BoxData[
+  TemplateBox[{"i"},
+   "ClickToCopy"]],ExpressionUUID->"d12b3866-e040-4aae-8e27-de1c1fe1a79d"],
+ " and ",
+ Cell[BoxData[
+  TemplateBox[{"j"},
+   "ClickToCopy"]],ExpressionUUID->"24f5614e-a7aa-41db-b4b2-f11f4f562477"],
+ "?"
+}], "ProblemCaption",ExpressionUUID->"17d17ff0-4780-48dc-b41a-a4bb5cfd1d63"],
+
+Cell[BoxData[
+ DynamicModuleBox[{$CellContext`ans$$ = 0}, 
+  InterpretationBox[
+   StyleBox[GridBox[{
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[9] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[9] -> Blank[]]}]}]]], {1},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           StyleBox[Cell[TextData[{
+             "Map ",
+             Cell[BoxData[
+              TemplateBox[{"f"},
+               "ClickToCopy"]],ExpressionUUID->
+              "2be26b43-fbcc-4207-b887-e4aef34e50d0"],
+             " onto ",
+             Cell[BoxData[
+              TemplateBox[{"mat"},
+               "ClickToCopy"]],ExpressionUUID->
+              "9b9b042f-3114-4b0e-b1aa-efc327794b3f"],
+             "."
+            }],ExpressionUUID->"7e200c8e-936c-43c6-9a8c-551af812256c"], 
+            "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[9] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[9] -> Blank[]]}]}]]], {2},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           StyleBox[Cell[TextData[{
+             "Use a nested ",
+             Cell[BoxData[
+              TemplateBox[{"For"},
+               "ClickToCopy"]],ExpressionUUID->
+              "d5deb146-d67f-4c7c-b156-38f610fa9159"],
+             ", ",
+             Cell[BoxData[
+              TemplateBox[{"While"},
+               "ClickToCopy"]],ExpressionUUID->
+              "343cd2a6-2697-420e-8329-e47173a63bf7"],
+             " or ",
+             Cell[BoxData[
+              TemplateBox[{"Do"},
+               "ClickToCopy"]],ExpressionUUID->
+              "577111ee-a7d6-4e11-ae91-a77463748611"],
+             " loop."
+            }],ExpressionUUID->"8a9106af-c1cc-43b7-8824-a181612120c3"], 
+            "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[9] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[9] -> Blank[]]}]}]]], {3},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           StyleBox[Cell[TextData[{
+             "Map ",
+             Cell[BoxData[
+              TemplateBox[{"f"},
+               "ClickToCopy"]],ExpressionUUID->
+              "1565e8a3-de22-4d2b-96c9-e29ec7d02651"],
+             " onto ",
+             Cell[BoxData[
+              TemplateBox[{"mat"},
+               "ClickToCopy"]],ExpressionUUID->
+              "c0f069cd-0c9b-4401-8970-a7c3a458ca30"],
+             " at level 2."
+            }],ExpressionUUID->"5913e646-f564-481d-972b-95e4820ef171"], 
+            "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> Flatten[{ToString[9] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[9] -> Blank[]]}]}]]], {4},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           StyleBox[Cell[TextData[{
+             "Apply ",
+             Cell[BoxData[
+              TemplateBox[{"f"},
+               "ClickToCopy"]],ExpressionUUID->
+              "2e000e8a-68d7-498d-87c1-c88720b73e73"],
+             " to ",
+             Cell[BoxData[
+              TemplateBox[{"mat"},
+               "ClickToCopy"]],ExpressionUUID->
+              "992b7d96-05c8-4d2a-b50d-103cfa34d9f8"],
+             "."
+            }],ExpressionUUID->"c47d401d-ac20-4766-b948-24e7e8ecda53"], 
+            "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]}
+     },
+     GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}], 
+    "Deploy"],
+   RadioButtonBar[
+    Dynamic[$CellContext`ans$$, 
+     Function[
+     WolframUTools`Private`a$, $CellContext`ans$$ = WolframUTools`Private`a$; 
+      SetOptions[
+        EvaluationNotebook[], 
+        TaggingRules -> {
+         "Answers" -> Flatten[{ToString[9] -> WolframUTools`Private`a$, 
+             DeleteCases[
+              CurrentValue[
+               EvaluationNotebook[], {TaggingRules, "Answers"}], ToString[9] -> 
+              Blank[]]}]}]]], {1 -> Style[
+       RawBoxes[
+        Cell[
+         TextData[{"Map ", 
+           Cell[
+            BoxData[
+             TemplateBox[{"f"}, "ClickToCopy"]]], " onto ", 
+           Cell[
+            BoxData[
+             TemplateBox[{"mat"}, "ClickToCopy"]]], "."}]]], 
+       "ProblemChoiceText"], 2 -> Style[
+       RawBoxes[
+        Cell[
+         TextData[{"Use a nested ", 
+           Cell[
+            BoxData[
+             TemplateBox[{"For"}, "ClickToCopy"]]], ", ", 
+           Cell[
+            BoxData[
+             TemplateBox[{"While"}, "ClickToCopy"]]], " or ", 
+           Cell[
+            BoxData[
+             TemplateBox[{"Do"}, "ClickToCopy"]]], " loop."}]]], 
+       "ProblemChoiceText"], 3 -> Style[
+       RawBoxes[
+        Cell[
+         TextData[{"Map ", 
+           Cell[
+            BoxData[
+             TemplateBox[{"f"}, "ClickToCopy"]]], " onto ", 
+           Cell[
+            BoxData[
+             TemplateBox[{"mat"}, "ClickToCopy"]]], " at level 2."}]]], 
+       "ProblemChoiceText"], 4 -> Style[
+       RawBoxes[
+        Cell[
+         TextData[{"Apply ", 
+           Cell[
+            BoxData[
+             TemplateBox[{"f"}, "ClickToCopy"]]], " to ", 
+           Cell[
+            BoxData[
+             TemplateBox[{"mat"}, "ClickToCopy"]]], "."}]]], 
+       "ProblemChoiceText"]}, Appearance -> "Vertical", BaselinePosition -> 
+    Automatic, ImageMargins -> {{6, 6}, {6, 6}}]],
+  DynamicModuleValues:>{}]], "ProblemChoiceGrid",
+ CellTags->"Problem-9",ExpressionUUID->"82249054-4cc1-457e-af51-4bd239bdc0fa"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Problem 10", "ProblemSectionNoFeedback",
+ TaggingRules->{
+  "QuestionNum" -> 
+   "10"},ExpressionUUID->"886204c7-d1b6-42a9-b910-64f959ecbf2d"],
+
+Cell[TextData[{
+ "Which of the following operator shorthands can be used to quickly change \
+the product ",
+ Cell[BoxData[
+  TemplateBox[{"a*b*c"},
+   "ClickToCopy"]],ExpressionUUID->"28d4835e-26a5-4cd6-b859-f12ebc062572"],
+ " to the sum ",
+ Cell[BoxData[
+  TemplateBox[{"a + b + c"},
+   "ClickToCopy"]],ExpressionUUID->"aac94293-c73f-4c1e-9cf0-629cf90dd06b"],
+ " (or vice versa)?"
+}], "ProblemCaption",ExpressionUUID->"6c8dfedc-f957-448c-b06e-11f24a7038c1"],
+
+Cell[BoxData[
+ DynamicModuleBox[{$CellContext`ans$$ = 0}, 
+  InterpretationBox[
+   StyleBox[GridBox[{
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> 
+                 Flatten[{ToString[10] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[10] -> Blank[]]}]}]]], {1},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           StyleBox[Cell[TextData[Cell[BoxData[
+             TemplateBox[{"@"},
+              "ClickToCopy"]],ExpressionUUID->
+             "dcf454a8-db73-4424-9787-c2c306c9e1a7"]],ExpressionUUID->
+             "7e5d52b9-4ca4-4d63-a8a0-e1fcee7ce09a"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> 
+                 Flatten[{ToString[10] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[10] -> Blank[]]}]}]]], {2},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           StyleBox[Cell[TextData[Cell[BoxData[
+             TemplateBox[{"@@"},
+              "ClickToCopy"]],ExpressionUUID->
+             "42a854d8-53eb-4c2c-ba84-81294647dd6a"]],ExpressionUUID->
+             "ce103c52-9395-46ab-af3c-fff74f464fc7"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> 
+                 Flatten[{ToString[10] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[10] -> Blank[]]}]}]]], {3},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           StyleBox[Cell[TextData[Cell[BoxData[
+             TemplateBox[{"@@@"},
+              "ClickToCopy"]],ExpressionUUID->
+             "ca0527d4-4053-4e66-95ec-59558d35e833"]],ExpressionUUID->
+             "d9e1ce80-adc8-4b3f-8e10-9bcabc0eac4b"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> 
+                 Flatten[{ToString[10] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[10] -> Blank[]]}]}]]], {4},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           
+           StyleBox[Cell[
+            "Any of the above",ExpressionUUID->
+             "41ea4c21-af14-4ca6-ba7b-462dc6fcb68c"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]},
+      {GridBox[{
+         {
+          RadioButtonBox[Dynamic[$CellContext`ans$$, 
+            Function[
+            WolframUTools`Private`a$, $CellContext`ans$$ = 
+              WolframUTools`Private`a$; SetOptions[
+               EvaluationNotebook[], 
+               TaggingRules -> {
+                "Answers" -> 
+                 Flatten[{ToString[10] -> WolframUTools`Private`a$, 
+                    DeleteCases[
+                    CurrentValue[
+                    EvaluationNotebook[], {TaggingRules, "Answers"}], 
+                    ToString[10] -> Blank[]]}]}]]], {5},
+           BaselinePosition->Automatic,
+           DefaultBaseStyle->"RadioButtonBar",
+           ImageMargins->{{6, 6}, {6, 6}}], 
+          StyleBox[
+           
+           StyleBox[Cell[
+            "None of the above",ExpressionUUID->
+             "a8932a82-a6ee-4971-8909-08687895d5b8"], "ProblemChoiceText",
+            StripOnInput->False], "RadioButtonBarLabel",
+           StripOnInput->False]}
+        },
+        AutoDelete->False,
+        BaselinePosition->{1, 2},
+        GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {
+            Offset[0.27999999999999997`], {
+             Offset[0.21]}, 
+            Offset[0.27999999999999997`]}, "Rows" -> {
+            Offset[0.2], {
+             Offset[0.4]}, 
+            Offset[0.2]}}]}
+     },
+     GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}], 
+    "Deploy"],
+   RadioButtonBar[
+    Dynamic[$CellContext`ans$$, 
+     Function[
+     WolframUTools`Private`a$, $CellContext`ans$$ = WolframUTools`Private`a$; 
+      SetOptions[
+        EvaluationNotebook[], 
+        TaggingRules -> {
+         "Answers" -> Flatten[{ToString[10] -> WolframUTools`Private`a$, 
+             DeleteCases[
+              CurrentValue[
+               EvaluationNotebook[], {TaggingRules, "Answers"}], ToString[10] -> 
+              Blank[]]}]}]]], {1 -> Style[
+       RawBoxes[
+        Cell[
+         TextData[{
+           Cell[
+            BoxData[
+             TemplateBox[{"@"}, "ClickToCopy"]]]}]]], "ProblemChoiceText"], 2 -> 
+     Style[
+       RawBoxes[
+        Cell[
+         TextData[{
+           Cell[
+            BoxData[
+             TemplateBox[{"@@"}, "ClickToCopy"]]]}]]], "ProblemChoiceText"], 
+     3 -> Style[
+       RawBoxes[
+        Cell[
+         TextData[{
+           Cell[
+            BoxData[
+             TemplateBox[{"@@@"}, "ClickToCopy"]]]}]]], "ProblemChoiceText"], 
+     4 -> Style[
+       RawBoxes[
+        Cell["Any of the above"]], "ProblemChoiceText"], 5 -> Style[
+       RawBoxes[
+        Cell["None of the above"]], "ProblemChoiceText"]}, Appearance -> 
+    "Vertical", BaselinePosition -> Automatic, 
+    ImageMargins -> {{6, 6}, {6, 6}}]],
+  DynamicModuleValues:>{}]], "ProblemChoiceGrid",
+ CellTags->
+  "Problem-10",ExpressionUUID->"53330c9e-e5ba-4b30-89a7-6e49331d065d"],
+
+Cell[BoxData[
+ DynamicModuleBox[{$CellContext`buttonLabel$$ = "Get Results"}, 
+  DynamicBox[ToBoxes[
+    If[
+     Not[
+      TrueQ[
+       CurrentValue[
+        EvaluationNotebook[], {TaggingRules, "QuizChecked"}]]], 
+     MouseAppearance[
+      Button[
+       Style[$CellContext`buttonLabel$$, "CheckButtonText", 
+        ShowStringCharacters -> False], ($CellContext`buttonLabel$$ = Pane[
+          Row[{" CHECKING ", 
+            ProgressIndicator[Appearance -> "Percolate"]}]]; CloudConnect[]; 
+       MOOC`CheckAnswers[]; 
+       MOOC`SetQuizChecked[True]; $CellContext`buttonLabel$$ = "Get Results"; 
+       Null), BaseStyle -> "CheckButton", Evaluator -> Automatic, Method -> 
+       "Queued", Enabled -> Length[
+          ReplaceAll[
+           Map[First, 
+            DeleteCases[
+             CurrentValue[
+              EvaluationNotebook[], {TaggingRules, "Answers"}], 
+             Alternatives[Blank[] -> 0, Inherited]]], Inherited -> {}]] === 
+        10], "LinkHand"], 
+     Module[{
+      WolframUTools`Private`answers$, WolframUTools`Private`correctAnswers$, 
+       WolframUTools`Private`numberOfAnswers$, WolframUTools`Private`corr$, 
+       WolframUTools`Private`percentCorrect$, 
+       WolframUTools`Private`percentCorrectExact$}, 
+      WolframUTools`Private`answers$ = CurrentValue[
+         EvaluationNotebook[], {TaggingRules, "Answers"}]; 
+      WolframUTools`Private`numberOfAnswers$ = 
+       Length[WolframUTools`Private`answers$]; 
+      WolframUTools`Private`correctAnswers$ = CurrentValue[
+         EvaluationNotebook[], {TaggingRules, "CorrectAnswers"}]; If[
+        And[
+         MemberQ[{Inherited, $Failed}, WolframUTools`Private`correctAnswers$],
+          False], 
+        MOOC`SetTaggingRule["CorrectAnswers", 
+         Map[# -> False& , 
+          Range[
+           Length[WolframUTools`Private`answers$]]]]]; If[
+        And[
+         ListQ[WolframUTools`Private`correctAnswers$], 
+         Length[WolframUTools`Private`correctAnswers$] > 0], 
+        WolframUTools`Private`corr$ = Map[ToString, {
+            Length[
+             Select[WolframUTools`Private`correctAnswers$, TrueQ[
+               Part[#, 2]]& ]], 
+            Length[WolframUTools`Private`correctAnswers$]}]; 
+        WolframUTools`Private`percentCorrectExact$ = 100 (Length[
+             Select[WolframUTools`Private`correctAnswers$, TrueQ[
+               Part[#, 2]]& ]]/Length[WolframUTools`Private`correctAnswers$]); 
+        Null, WolframUTools`Private`corr$ = {"0", 
+           ToString[
+            Length[WolframUTools`Private`answers$]]}; 
+        WolframUTools`Private`percentCorrectExact$ = 0; Null]; 
+      WolframUTools`Private`percentCorrect$ = ToString[
+          Floor[WolframUTools`Private`percentCorrectExact$]] <> "%"; 
+      With[{WolframUTools`Private`percent$ = 
+         WolframUTools`Private`percentCorrect$, 
+         WolframUTools`Private`percentExact$ = 
+         WolframUTools`Private`percentCorrectExact$, 
+         WolframUTools`Private`correct$ = WolframUTools`Private`corr$}, 
+        Grid[{{
+           Style["Quiz Results", "QuizResultsText"]}, {
+           Row[{
+             Style["Your score is ", "ScoreText"], 
+             Style[
+             WolframUTools`Private`percent$, "ScoreText", FontWeight -> 
+              "SemiBold", AutoMultiplicationSymbol -> False], 
+             Style[".", "ScoreText"]}]}, {
+           Style[
+           "You answered " <> Part[WolframUTools`Private`correct$, 1] <> 
+            " out of " <> Part[WolframUTools`Private`correct$, 2] <> 
+            " problems correctly. Your quiz score has been recorded. All quiz \
+attempt scores are saved.", "NumProbsCorrectText"]}, 
+          If[False, {
+            Row[
+             Flatten[{
+               Map[{
+                 
+                 PaneSelector[{
+                  True -> Style[
+                    "\[Checkmark]", FontSize -> 30, FontColor -> RGBColor[0, 
+                    Rational[2, 3], 0], FontWeight -> Bold], False -> 
+                   Style["\[Times]", FontSize -> 30, FontColor -> 
+                    RGBColor[1, 0, 0], FontWeight -> Bold]}, 
+                  Part[#, 2]], 
+                 Spacer[3], 
+                 Style[
+                  Part[#, 1], "NumProbsCorrectText"], 
+                 Spacer[24]}& , WolframUTools`Private`correctAnswers$]}]]}, 
+           Nothing], 
+          If[True, {
+            Row[{
+              If[
+               TrueQ[WolframUTools`Private`percentExact$ >= 60], 
+               Style[
+               "You passed this quiz!", "NumProbsCorrectText", FontColor -> 
+                Darker[Green], FontWeight -> Bold], 
+               Style[
+               "You did not pass this quiz.", "NumProbsCorrectText", 
+                FontColor -> Red, FontWeight -> Bold]], 
+              Style[
+              " Quiz scores of " <> ToString[60] <> 
+               "% or higher are required for a completion certificate.", 
+               "NumProbsCorrectText"]}]}, Nothing], 
+          If[
+           StringMatchQ[WolframUTools`Private`percent$, "100%"], Nothing, {
+            Style[
+            "You can retake this quiz! Select different responses to the quiz \
+problems and get new results.", "NumProbsCorrectText"]}]}, 
+         Spacings -> {"Rows" -> 2, "Columns" -> 3}]]]], StandardForm],
+   ImageSizeCache->{160., {12., 28.}}],
+  DynamicModuleValues:>{},
+  Initialization:>((
+   MOOC`CheckAnswers[] := 
+    Module[{WolframUTools`Private`answers$, 
+       WolframUTools`Private`correctAnswers$, WolframUTools`Private`results$, 
+       WolframUTools`Private`tags$, WolframUTools`Private`success$, 
+       WolframUTools`Private`requesterIDData$, 
+       WolframUTools`Private`requesterName$}, 
+      WolframUTools`Private`answers$ = CurrentValue[
+         EvaluationNotebook[], {TaggingRules, "Answers"}]; 
+      WolframUTools`Private`requesterIDData$ = (If[
+         AssociationQ[#], #, <||>]& )[
+         Quiet[
+          Check[
+           ImportString[
+            CloudObject`Private`authenticatedURLFetch[
+            "https://www.wolframcloud.com/users/user-current/auth/\
+wolframuuid"], "RawJSON"], <||>]]]; 
+      WolframUTools`Private`requesterName$ = ReplaceAll[
+         StringTrim[
+         Lookup[WolframUTools`Private`requesterIDData$, "firstname", ""] <> 
+          " " <> Lookup[
+           WolframUTools`Private`requesterIDData$, "lastname", ""]], "" -> 
+         Missing[]]; 
+      With[{WolframUTools`Private`id$ = ToString[$RequesterCloudUserID], 
+         WolframUTools`Private`uuid$ = ToString[$RequesterCloudUserUUID], 
+         WolframUTools`Private`name$ = WolframUTools`Private`requesterName$}, 
+        
+        If[
+         ListQ[WolframUTools`Private`answers$], 
+         WolframUTools`Private`answers$ = 
+          ExportString[<|WolframUTools`Private`answers$|>, "RawJSON"]; 
+         WolframUTools`Private`results$ = Quiet[
+            URLExecute[
+             CloudObject[
+             "https://www.wolframcloud.com/obj/online-courses/programming-\
+fundamentals-dev210/api/get/quiz-verification/programming-fundamentals-dev210_\
+quiz-1"], 
+             
+             DeleteMissing[{
+              "id" -> WolframUTools`Private`id$, "uuid" -> 
+               WolframUTools`Private`uuid$, "name" -> 
+               WolframUTools`Private`name$, "userAnswers" -> 
+               WolframUTools`Private`answers$}]]]; 
+         WolframUTools`Private`success$ = If[
+            StringQ[WolframUTools`Private`results$], 
+            ToExpression[WolframUTools`Private`results$], $Failed]; 
+         WolframUTools`Private`success$ = SortBy[
+            If[
+             AssociationQ[WolframUTools`Private`success$], 
+             Normal[WolframUTools`Private`success$], 
+             WolframUTools`Private`success$], ToExpression[
+             First[#]]& ]; If[
+           ListQ[WolframUTools`Private`success$], 
+           WolframUTools`Private`tags$ = MOOC`ResetOptions[
+              CurrentValue[
+               EvaluationNotebook[], TaggingRules], "CorrectAnswers" -> 
+              Normal[WolframUTools`Private`success$]]; If[
+             ListQ[WolframUTools`Private`tags$], 
+             SetOptions[
+              EvaluationNotebook[], TaggingRules -> 
+              WolframUTools`Private`tags$]]; If[
+             And[
+              StringQ[None], 
+              StringMatchQ[None, "http*"]], 
+             Quiet[
+              URLExecute[
+               CloudObject[None], 
+               
+               DeleteMissing[{
+                "id" -> WolframUTools`Private`id$, "uuid" -> 
+                 WolframUTools`Private`uuid$, "name" -> 
+                 WolframUTools`Private`name$, "quiznum" -> ToString[1], 
+                 "correctpercent" -> ToString[
+                   Floor[Divide[
+                    Count[WolframUTools`Private`success$, Blank[] -> True], 
+                    Length[WolframUTools`Private`success$]] 100]], "answers" -> 
+                 ToString[WolframUTools`Private`answers$]}]]]]; 
+           True, $Failed], $Failed]]]; MOOC`SetQuizChecked[
+      Pattern[WolframUTools`Private`val, 
+       Blank[]]] := 
+    MOOC`SetTaggingRule["QuizChecked", WolframUTools`Private`val]; 
+   MOOC`SetTaggingRule[
+      Pattern[WolframUTools`Private`tag, 
+       Blank[]], 
+      Pattern[WolframUTools`Private`val, 
+       Blank[]]] := 
+    Module[{WolframUTools`Private`tags}, 
+      WolframUTools`Private`tags = MOOC`ResetOptions[
+         CurrentValue[
+          EvaluationNotebook[], TaggingRules], WolframUTools`Private`tag -> 
+         WolframUTools`Private`val]; If[
+        ListQ[WolframUTools`Private`tags], 
+        SetOptions[
+         EvaluationNotebook[], TaggingRules -> WolframUTools`Private`tags]]]; 
+   MOOC`ResetOptions[
+      Pattern[WolframUTools`Private`h, 
+       Blank[]][
+       Pattern[WolframUTools`Private`stuff, 
+        BlankNullSequence[]], 
+       PatternTest[
+        Pattern[WolframUTools`Private`opts, 
+         BlankNullSequence[]], OptionQ]], 
+      PatternTest[
+       Pattern[WolframUTools`Private`newopts, 
+        BlankSequence[]], OptionQ]] := 
+    WolframUTools`Private`h[WolframUTools`Private`stuff, 
+      Apply[Sequence, 
+       Flatten[{WolframUTools`Private`newopts}]], 
+      Apply[Sequence, 
+       DeleteCases[{WolframUTools`Private`opts}, 
+        Blank[][
+         Apply[Alternatives, 
+          Part[
+           Flatten[{WolframUTools`Private`newopts}], All, 1]], 
+         Blank[]]]]]; MOOC`ResetOptions[
+      Pattern[WolframUTools`Private`h, 
+       Blank[]][
+       Pattern[WolframUTools`Private`stuff, 
+        BlankNullSequence[]]], 
+      PatternTest[
+       Pattern[WolframUTools`Private`newopts, 
+        BlankSequence[]], OptionQ]] := 
+    WolframUTools`Private`h[
+     WolframUTools`Private`stuff, WolframUTools`Private`newopts]; 
+   Null))]], "ResultsGrid",ExpressionUUID->"96d6c5cc-e356-4744-8ea7-\
+e7ba09c3f9ac"],
+
+Cell["v2.20231121", "VersionNumber",
+ CellTags->"version",ExpressionUUID->"80ba51ac-1563-4242-86db-42cff0701e60"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->Medium,
+WindowMargins->{{Automatic, Automatic}, {Automatic, Automatic}},
+WindowTitle->"Quiz",
+TaggingRules->{
+ "QuizNumber" -> 1, "QuizChecked" -> False, 
+  "Answers" -> {
+   "1" -> 0, "10" -> 0, "2" -> 0, "3" -> 0, "4" -> 0, "5" -> 0, "6" -> 0, "7" -> 
+    0, "8" -> 0, "9" -> 0}},
+FrontEndVersion->"13.3 for Mac OS X x86 (64-bit) (July 24, 2023)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[StyleDefinitions -> "Default.nb"]], 
+   Cell[
+    StyleData["Notebook"], PageWidth -> WindowWidth, ShowCellBracket -> False,
+     CellLabelAutoDelete -> True, 
+    StyleHints -> <|"CodeFont" -> "Source Code Pro"|>, MenuSortingValue -> 
+    None], 
+   Cell[
+    CellGroupData[{
+      Cell["Custom Styles", "Section"], 
+      Cell[
+       CellGroupData[{
+         Cell["General", "Subsection"], 
+         Cell[
+          StyleData["SectionTitle", StyleDefinitions -> StyleData["Title"]], 
+          CellFrame -> {{False, False}, {1, 0}}, 
+          CellMargins -> {{27, Inherited}, {0, 10}}, CellFrameColor -> 
+          RGBColor[0.85, 0.85, 0.85], CounterIncrements -> "SectionTitle", 
+          FontSize -> 20, FontWeight -> "Light", FontColor -> 
+          RGBColor[0.65, 0.65, 0.65]], 
+         Cell[
+          StyleData[
+          "QuizSectionTitle", StyleDefinitions -> StyleData["SectionTitle"]], 
+          Editable -> False, Deletable -> False, 
+          CellMargins -> {{70, Inherited}, {0, 10}}], 
+         Cell[
+          StyleData["Section"], CellFrame -> False, 
+          CellMargins -> {{27, Inherited}, {34, 14}}, PageBreakAbove -> False,
+           PageBreakBelow -> False, ShowCellLabel -> False, 
+          CellFrameLabelMargins -> {{2, Inherited}, {Inherited, Inherited}}, 
+          FontSize -> 36, FontColor -> RGBColor[1, 0.43, 0.13]], 
+         Cell[
+          StyleData["ProblemTitle", StyleDefinitions -> StyleData["Section"]],
+           Editable -> False, Deletable -> False, 
+          CellMargins -> {{70, Inherited}, {34, 30}}, FontSize -> 40], 
+         Cell[
+          StyleData["Text"], CellMargins -> {{66, 10}, {7, 8}}, FontSize -> 
+          15, FontColor -> GrayLevel[0]]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell["Quiz", "Subsection"], 
+         Cell[
+          StyleData[
+          "ProblemSectionStyle", StyleDefinitions -> StyleData["Subsection"]],
+           Editable -> False, Deletable -> False, 
+          CellMargins -> {{70, Inherited}, {8, 15}}, 
+          CounterAssignments -> {{"ItemRomanNumbered", 0}}, FontSize -> 18, 
+          FontWeight -> "SemiBold", 
+          FontVariations -> {"CapsType" -> "AllCaps"}, FontColor -> 
+          GrayLevel[0]], 
+         Cell[
+          StyleData[
+          "ProblemSection", StyleDefinitions -> 
+           StyleData["ProblemSectionStyle"]], CellDingbat -> Dynamic[
+            If[
+             TrueQ[
+              CurrentValue[
+               EvaluationNotebook[], {TaggingRules, "QuizChecked"}, False]], 
+             If[
+              TrueQ[
+               CurrentValue[
+                EvaluationNotebook[], {TaggingRules, "CorrectAnswers", 
+                 CurrentValue[
+                  EvaluationCell[], {TaggingRules, "QuestionNum"}]}]], 
+              Cell[
+               BoxData[
+                StyleBox[
+                "\[Checkmark]", FontSize -> 28, FontWeight -> Bold, FontColor -> 
+                 RGBColor[0.228244, 0.718166, 0.206622]]]], 
+              Cell[
+               BoxData[
+                StyleBox[
+                "\[Times]", FontSize -> 28, FontWeight -> Bold, FontColor -> 
+                 RGBColor[1, 0, 0]]]]], ""]], CounterIncrements -> 
+          "ProblemSection"], 
+         Cell[
+          StyleData[
+          "ProblemSectionNoFeedback", StyleDefinitions -> 
+           StyleData["ProblemSectionStyle"]], CounterIncrements -> 
+          "ProblemSection"], 
+         Cell[
+          StyleData["ProblemCaption", StyleDefinitions -> StyleData["Text"]], 
+          Editable -> False, Deletable -> False, 
+          CellMargins -> {{70, Inherited}, {15, 7}}, FontSize -> 21], 
+         Cell[
+          StyleData[
+          "ProblemChoiceText", StyleDefinitions -> StyleData["Text"]], 
+          Editable -> False, Deletable -> False, ShowStringCharacters -> 
+          False, FontSize -> 18], 
+         Cell[
+          StyleData["ProblemChoiceGrid"], Editable -> False, Deletable -> 
+          False, CellMargins -> {{70, Inherited}, {45, 0}}], 
+         Cell[
+          StyleData["CheckButton"], 
+          CellMargins -> {{70, Inherited}, {Inherited, Inherited}}, 
+          ButtonBoxOptions -> {
+           Background -> RGBColor[1, 0.43, 0.13], ImageSize -> {160, 40}}], 
+         Cell[
+          StyleData["CheckButtonText", StyleDefinitions -> StyleData["Text"]],
+           FontSize -> 18, FontWeight -> "SemiBold", 
+          FontVariations -> {"CapsType" -> "AllCaps"}, FontColor -> 
+          GrayLevel[1]], 
+         Cell[
+          StyleData["QuizResultsText", StyleDefinitions -> StyleData["Text"]],
+           FontSize -> 20, FontWeight -> "SemiBold", 
+          FontVariations -> {"CapsType" -> "AllCaps"}, FontColor -> 
+          RGBColor[0., 0.2, 0.4]], 
+         Cell[
+          StyleData["ScoreText", StyleDefinitions -> StyleData["Text"]], 
+          FontSize -> 22], 
+         Cell[
+          StyleData["ResultsGrid"], Editable -> False, Deletable -> False, 
+          CellMargins -> {{70, 70}, {70, 70}}, ShowStringCharacters -> False, 
+          GridBoxOptions -> {FrameStyle -> Directive[
+              Thickness[Large], 
+              RGBColor[0., 0.2, 0.4]], 
+            GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+            GridBoxBackground -> {"Columns" -> {{
+                 RGBColor[0.9, 0.95, 1.]}}}, 
+            GridBoxDividers -> {
+             "Columns" -> {True, {False}, True}, 
+              "Rows" -> {True, {False}, True}}, 
+            GridBoxItemSize -> {"Columns" -> {{36}}}, 
+            GridBoxSpacings -> {"Columns" -> {Automatic, {
+                 Offset[0.6]}, Automatic}, "Rows" -> {Automatic, {
+                 Offset[0.4]}, Automatic}}}], 
+         Cell[
+          StyleData[
+          "NumProbsCorrectText", StyleDefinitions -> StyleData["Text"]], 
+          FontSize -> 17], 
+         Cell[
+          StyleData["VersionNumber", StyleDefinitions -> StyleData["Text"]], 
+          FontSize -> 14, FontColor -> RGBColor[0.65, 0.65, 0.65]]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell["Items", "Subsection"], 
+         Cell[
+          StyleData["Item"], CellDingbat -> 
+          StyleBox["\[FilledSmallSquare]", Alignment -> Baseline, 
+            RGBColor[0.9, 0.4, 0.]], FontColor -> GrayLevel[0]], 
+         Cell[
+          StyleData["Subitem"], CellDingbat -> 
+          StyleBox["\[FilledSmallSquare]", Alignment -> Baseline, 
+            RGBColor[0.9, 0.4, 0.]], FontColor -> GrayLevel[0]], 
+         Cell[
+          StyleData["Subsubitem"], CellDingbat -> 
+          StyleBox["\[FilledSmallSquare]", Alignment -> Baseline, 
+            RGBColor[0.65, 0.65, 0.65]], FontColor -> GrayLevel[0]], 
+         Cell[
+          StyleData["ItemNumbered"], FontColor -> GrayLevel[0]], 
+         Cell[
+          StyleData["SubitemNumbered"], FontColor -> GrayLevel[0]], 
+         Cell[
+          StyleData["SubsubitemNumbered"], FontColor -> GrayLevel[0]], 
+         Cell[
+          StyleData[
+          "ItemRomanNumbered", StyleDefinitions -> StyleData["ItemNumbered"]],
+           CellDingbat -> Cell[
+            TextData[{
+              CounterBox[
+              "ItemRomanNumbered", CounterFunction -> RomanNumeral], "."}], 
+            FontWeight -> Bold], CounterIncrements -> "ItemRomanNumbered", 
+          FontColor -> GrayLevel[0]], 
+         Cell[
+          StyleData["ItemParagraph"], FontColor -> GrayLevel[0]], 
+         Cell[
+          StyleData["SubitemParagraph"], FontColor -> GrayLevel[0]], 
+         Cell[
+          StyleData["SubsubitemParagraph"], FontColor -> GrayLevel[0]], 
+         Cell[
+          StyleData[
+          "CodeTextItemNumbered", StyleDefinitions -> 
+           StyleData["ItemNumbered"]], MenuSortingValue -> 10000, FontColor -> 
+          GrayLevel[0.45]]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell["Inline and Special Formatting", "Subsection"], 
+         Cell[
+          StyleData["CodeText"], CellMargins -> {{66, 10}, {7, 8}}, FontSize -> 
+          15], 
+         Cell[
+          StyleData["Link"], FontColor -> RGBColor[0, 0.6, 1]], 
+         Cell[
+          StyleData["HyperLink", StyleDefinitions -> StyleData["Link"]]], 
+         Cell[
+          StyleData["Hyperlink", StyleDefinitions -> StyleData["Link"]]], 
+         Cell[
+          StyleData["FunctionLink", StyleDefinitions -> StyleData["Link"]]], 
+         Cell[
+          StyleData["HyperlinkActive"], FontColor -> RGBColor[1, 0.4, 0]], 
+         Cell[
+          StyleData["ExcludedCell"], MenuSortingValue -> 10000, Background -> 
+          RGBColor[1, 0.9, 1]], 
+         Cell[
+          StyleData["Input"], CellMargins -> {{70, Inherited}, {25, 0}}, 
+          FontSize -> 18, FontWeight -> "SemiBold", FontColor -> 
+          GrayLevel[0]], 
+         Cell[
+          StyleData["Output"], CellMargins -> {{70, Inherited}, {25, 0}}, 
+          FontSize -> 18, FontColor -> GrayLevel[0]], 
+         Cell[
+          StyleData["InputOnly"], CellMargins -> {{70, Inherited}, {25, 0}}, 
+          FontSize -> 18, FontWeight -> "SemiBold", FontColor -> 
+          GrayLevel[0]], 
+         Cell[
+          StyleData["InputHidden", StyleDefinitions -> StyleData["Input"]], 
+          CellEpilog :> (SelectionMove[
+             EvaluationNotebook[], All, GeneratedCell]; 
+           FrontEndTokenExecute["SelectionCloseUnselectedCells"]), 
+          InitializationCell -> True, MenuSortingValue -> 1510, 
+          MenuCommandKey :> "8"], 
+         Cell[
+          StyleData["Code"], CellMargins -> {{70, Inherited}, {25, 0}}], 
+         Cell[
+          StyleData["Separator"], CellFrame -> {{False, False}, {1.5, False}},
+           CellMargins -> {{70, Inherited}, {25, 0}}, CellFrameColor -> 
+          GrayLevel[0.66], MenuSortingValue -> 10000], 
+         Cell[
+          StyleData["Print"], CellMargins -> {{70, Inherited}, {25, 0}}], 
+         Cell[
+          StyleData["InlineCode"], SpanMaxSize -> 0, FontSize -> 
+          0.95 Inherited, FontWeight -> "SemiBold", FontColor -> 
+          GrayLevel[0]], 
+         Cell[
+          StyleData[
+          "InlineCodeText", StyleDefinitions -> StyleData["InlineCode"]]], 
+         Cell[
+          StyleData[
+          "InlineInput", StyleDefinitions -> StyleData["InlineCode"]]], 
+         Cell[
+          StyleData["InlineFormula"], ShowStringCharacters -> True, 
+          SpanMaxSize -> 0, FontWeight -> "SemiBold", FontColor -> 
+          GrayLevel[0]], 
+         Cell[
+          StyleData["InlineMath"], SpanMaxSize -> 0, FontColor -> 
+          GrayLevel[0]], 
+         Cell[
+          StyleData[
+          "NotebookDownload", StyleDefinitions -> StyleData["Text"]], 
+          CellFrame -> {{0, 0}, {0, 1}}, ShowCellBracket -> False, 
+          CellMargins -> {{27, Inherited}, {100, 20}}, 
+          CellGroupingRules -> {"SectionGrouping", 10}, CloudRenderingMethod -> 
+          "InteractiveBoxes", 
+          CellFrameMargins -> {{Inherited, Inherited}, {Inherited, 20}}, 
+          FontColor -> RGBColor[0.9, 0.4, 0]], 
+         Cell[
+          StyleData["ExternalLanguage"], 
+          CellMargins -> {{70, Inherited}, {25, 0}}], 
+         Cell[
+          StyleData["Keyword", StyleDefinitions -> StyleData["Text"]], 
+          MenuSortingValue -> 10000, FontColor -> RGBColor[0.9, 0.4, 0.]], 
+         Cell[
+          StyleData["KeyEvent"], CellFrame -> {{1, 1}, {1, 1}}, 
+          CellFrameMargins -> {{2, 2}, {2, 2}}, CellFrameColor -> 
+          GrayLevel[0.8], FontColor -> GrayLevel[0.36], Background -> 
+          GrayLevel[0.96]]}, Closed]]}, Open]]}, Visible -> False, 
+  FrontEndVersion -> "13.3 for Mac OS X x86 (64-bit) (July 24, 2023)", 
+  StyleDefinitions -> Notebook[{
+     Cell[
+      StyleData[StyleDefinitions -> "PrivateStylesheetFormatting.nb"]]}, 
+    Visible -> False, FrontEndVersion -> 
+    "13.3 for Mac OS X x86 (64-bit) (July 24, 2023)", StyleDefinitions -> 
+    "PrivateStylesheetFormatting.nb"]],
+ExpressionUUID->"9b6f01c7-3c24-43fc-a9c9-cad792228876"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "Problem-1"->{
+  Cell[1166, 40, 8470, 207, 70, "ProblemChoiceGrid",ExpressionUUID->"77283ba8-d022-465b-8c89-5178f61c4986",
+   CellTags->"Problem-1"]},
+ "Problem-2"->{
+  Cell[10145, 267, 9916, 237, 70, "ProblemChoiceGrid",ExpressionUUID->"56035047-32db-4c19-b2a8-70c5f520904d",
+   CellTags->"Problem-2"]},
+ "Problem-3"->{
+  Cell[20555, 523, 7700, 186, 70, "ProblemChoiceGrid",ExpressionUUID->"a5f1cb25-7d7c-48a3-86ca-3a9ca2b276b8",
+   CellTags->"Problem-3"]},
+ "Problem-4"->{
+  Cell[28728, 727, 8202, 195, 70, "ProblemChoiceGrid",ExpressionUUID->"5a5d98ef-4e4e-40be-aeba-ae70f804a018",
+   CellTags->"Problem-4"]},
+ "Problem-5"->{
+  Cell[37282, 936, 5538, 134, 70, "ProblemChoiceGrid",ExpressionUUID->"90c1f448-aa9a-4395-91cf-b8cd00fff4e0",
+   CellTags->"Problem-5"]},
+ "Problem-6"->{
+  Cell[43989, 1109, 8942, 215, 70, "ProblemChoiceGrid",ExpressionUUID->"f41df898-515f-4aac-a58f-ede4663bf6ff",
+   CellTags->"Problem-6"]},
+ "Problem-7"->{
+  Cell[53250, 1336, 9448, 231, 70, "ProblemChoiceGrid",ExpressionUUID->"0d80723b-2e6d-425e-82eb-860dadc37dc3",
+   CellTags->"Problem-7"]},
+ "Problem-8"->{
+  Cell[63267, 1589, 7005, 170, 70, "ProblemChoiceGrid",ExpressionUUID->"25bbb0f2-81f5-4830-8710-76f62bab6e72",
+   CellTags->"Problem-8"]},
+ "Problem-9"->{
+  Cell[71434, 1800, 9670, 249, 70, "ProblemChoiceGrid",ExpressionUUID->"82249054-4cc1-457e-af51-4bd239bdc0fa",
+   CellTags->"Problem-9"]},
+ "Problem-10"->{
+  Cell[81753, 2072, 9281, 231, 70, "ProblemChoiceGrid",ExpressionUUID->"53330c9e-e5ba-4b30-89a7-6e49331d065d",
+   CellTags->"Problem-10"]},
+ "version"->{
+  Cell[101863, 2549, 113, 1, 70, "VersionNumber",ExpressionUUID->"80ba51ac-1563-4242-86db-42cff0701e60",
+   CellTags->"version"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"Problem-1", 114441, 2835},
+ {"Problem-2", 114593, 2838},
+ {"Problem-3", 114747, 2841},
+ {"Problem-4", 114901, 2844},
+ {"Problem-5", 115055, 2847},
+ {"Problem-6", 115209, 2850},
+ {"Problem-7", 115364, 2853},
+ {"Problem-8", 115519, 2856},
+ {"Problem-9", 115674, 2859},
+ {"Problem-10", 115830, 2862},
+ {"version", 115984, 2865}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[598, 23, 124, 0, 70, "QuizSectionTitle",ExpressionUUID->"a6d8b047-e16f-42bd-be81-2db90777abbf"],
+Cell[CellGroupData[{
+Cell[747, 27, 83, 0, 70, "ProblemTitle",ExpressionUUID->"a1ce0a1c-99b9-488d-904d-1b33e3e34a72"],
+Cell[CellGroupData[{
+Cell[855, 31, 146, 3, 70, "ProblemSectionNoFeedback",ExpressionUUID->"e799e9f2-15d2-41ba-abfb-331666296f3b"],
+Cell[1004, 36, 159, 2, 70, "ProblemCaption",ExpressionUUID->"07ee79bf-da7a-4611-8423-3c35319dc86e"],
+Cell[1166, 40, 8470, 207, 70, "ProblemChoiceGrid",ExpressionUUID->"77283ba8-d022-465b-8c89-5178f61c4986",
+ CellTags->"Problem-1"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9673, 252, 146, 3, 70, "ProblemSectionNoFeedback",ExpressionUUID->"dd967ac6-0515-44d4-8c99-ec49dc3a055b"],
+Cell[9822, 257, 320, 8, 70, "ProblemCaption",ExpressionUUID->"c8b6b3ad-026a-405a-9bbc-b8c749b66e6a"],
+Cell[10145, 267, 9916, 237, 70, "ProblemChoiceGrid",ExpressionUUID->"56035047-32db-4c19-b2a8-70c5f520904d",
+ CellTags->"Problem-2"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20098, 509, 146, 3, 70, "ProblemSectionNoFeedback",ExpressionUUID->"44949fd2-e01b-42d7-b0b0-dd08f7e7a401"],
+Cell[20247, 514, 305, 7, 70, "ProblemCaption",ExpressionUUID->"12456082-2bc1-49e0-a4e2-c4bf7b970584"],
+Cell[20555, 523, 7700, 186, 70, "ProblemChoiceGrid",ExpressionUUID->"a5f1cb25-7d7c-48a3-86ca-3a9ca2b276b8",
+ CellTags->"Problem-3"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[28292, 714, 146, 3, 70, "ProblemSectionNoFeedback",ExpressionUUID->"627381f6-1391-4415-a10e-4c35266afacd"],
+Cell[28441, 719, 284, 6, 70, "ProblemCaption",ExpressionUUID->"30c35553-5989-4833-a620-68578131baab"],
+Cell[28728, 727, 8202, 195, 70, "ProblemChoiceGrid",ExpressionUUID->"5a5d98ef-4e4e-40be-aeba-ae70f804a018",
+ CellTags->"Problem-4"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[36967, 927, 146, 3, 70, "ProblemSectionNoFeedback",ExpressionUUID->"6aba288e-ade0-4dd7-a4d2-5dc61e9f2149"],
+Cell[37116, 932, 163, 2, 70, "ProblemCaption",ExpressionUUID->"3f06fbcb-fce4-4b54-a094-6b433324f3e5"],
+Cell[37282, 936, 5538, 134, 70, "ProblemChoiceGrid",ExpressionUUID->"90c1f448-aa9a-4395-91cf-b8cd00fff4e0",
+ CellTags->"Problem-5"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[42857, 1075, 146, 3, 70, "ProblemSectionNoFeedback",ExpressionUUID->"c7856b4e-79a3-4fad-83e9-e0f974139cf7"],
+Cell[43006, 1080, 980, 27, 70, "ProblemCaption",ExpressionUUID->"7bd2265d-9d4a-451b-a0dc-16fb6c8621e1"],
+Cell[43989, 1109, 8942, 215, 70, "ProblemChoiceGrid",ExpressionUUID->"f41df898-515f-4aac-a58f-ede4663bf6ff",
+ CellTags->"Problem-6"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[52968, 1329, 146, 3, 70, "ProblemSectionNoFeedback",ExpressionUUID->"6dc4c877-6790-42e3-b3ab-83145ceece88"],
+Cell[53117, 1334, 130, 0, 70, "ProblemCaption",ExpressionUUID->"e558950c-3430-4c23-b7f4-c579d6a85d47"],
+Cell[53250, 1336, 9448, 231, 70, "ProblemChoiceGrid",ExpressionUUID->"0d80723b-2e6d-425e-82eb-860dadc37dc3",
+ CellTags->"Problem-7"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[62735, 1572, 146, 3, 70, "ProblemSectionNoFeedback",ExpressionUUID->"12ba7ffc-5bc6-4b13-a532-5ce557b76798"],
+Cell[62884, 1577, 380, 10, 70, "ProblemCaption",ExpressionUUID->"e38f555d-9423-4005-b68f-e268970a6049"],
+Cell[63267, 1589, 7005, 170, 70, "ProblemChoiceGrid",ExpressionUUID->"25bbb0f2-81f5-4830-8710-76f62bab6e72",
+ CellTags->"Problem-8"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[70309, 1764, 146, 3, 70, "ProblemSectionNoFeedback",ExpressionUUID->"0be6ccd6-1906-46cb-b9a1-97bc03f90a32"],
+Cell[70458, 1769, 973, 29, 70, "ProblemCaption",ExpressionUUID->"17d17ff0-4780-48dc-b41a-a4bb5cfd1d63"],
+Cell[71434, 1800, 9670, 249, 70, "ProblemChoiceGrid",ExpressionUUID->"82249054-4cc1-457e-af51-4bd239bdc0fa",
+ CellTags->"Problem-9"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[81141, 2054, 148, 3, 70, "ProblemSectionNoFeedback",ExpressionUUID->"886204c7-d1b6-42a9-b910-64f959ecbf2d"],
+Cell[81292, 2059, 458, 11, 70, "ProblemCaption",ExpressionUUID->"6c8dfedc-f957-448c-b06e-11f24a7038c1"],
+Cell[81753, 2072, 9281, 231, 70, "ProblemChoiceGrid",ExpressionUUID->"53330c9e-e5ba-4b30-89a7-6e49331d065d",
+ CellTags->"Problem-10"],
+Cell[91037, 2305, 10823, 242, 70, "ResultsGrid",ExpressionUUID->"96d6c5cc-e356-4744-8ea7-e7ba09c3f9ac"],
+Cell[101863, 2549, 113, 1, 70, "VersionNumber",ExpressionUUID->"80ba51ac-1563-4242-86db-42cff0701e60",
+ CellTags->"version"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
